@@ -1,0 +1,517 @@
+@charset "utf-8";
+/* CSS Document */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+	margin: auto;
+	padding: auto;
+	font-family: 'Poppins', sans-serif;
+	}
+::-webkit-scrollbar{
+  display: none;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+
+.navbar{
+	position: fixed;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	flex-wrap: wrap;
+	width: 260px;
+	height: 140px;
+	left: 98.15%;
+	top: 40%;
+	z-index: 1;
+	background-color: rgba(0,0,0,0.50);
+	transition: 0.5s;
+	overflow: hidden;
+}
+.navbar:hover{
+	left: 86.5%;
+}
+.nav{
+	float: left;
+	justify-content: left;
+	list-style: none;
+	display: table-column;
+	padding-left: 13px;
+}
+ul li a{
+	color: #FFFFFF;
+	font-size: 20px;
+	text-decoration: none;
+	
+}
+ul li a:hover{
+	color: rgba(0,255,163,1.00);
+}
+p3{
+	color: rgba(0,255,163,1.00);
+	text-decoration: underline;
+}
+
+.banner-area{
+	position: relative;
+	background: rgba(13,13,13,1.00);
+	width: 100%;
+	height: 100vh;
+	background-repeat: no-repeat;
+	-webkit-background-size:cover;
+	background-size: cover;
+}
+h2{
+	font-size: 60px;
+	color: #FFFFFF;
+	position: relative;
+	top: 40%;
+	justify-content: center;
+}
+p4{
+	font-size: 24px;
+	line-height: 40px;
+	color: #FFFFFF;
+	width: 100%;
+	margin-bottom: 20px;
+	display: flex;
+}
+.ScrollDown{
+	position: relative;
+	display: flex;
+	justify-content: center;
+	list-style: none;
+	top: 50%;
+}
+@keyframes blinkingText{
+	0%{     color: #FFFFFF; }
+    50%{    color: transparent; }
+    100%{   color: #FFFFFF; }
+}
+
+ul5 li a{
+	animation:blinkingText 2s infinite;
+	font-weight: "bold";
+	font-size: 100px;
+	text-decoration: none;
+}
+ul5 li a:hover{
+	color: rgba(0,255,163,1.00);
+	cursor: pointer;
+}
+/*.contact-area{
+	position: relative;
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	flex-direction: row;
+	width: 100%;
+	height: 200px;
+}*/
+.introduction-area, .problems_solutions-area{
+	position: relative;
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	flex-direction: row;
+	width: 100%;
+	height: 100vh;
+}
+.photos-area{
+	position: relative;
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	flex-direction: row;
+	width: 100%;
+	height: 100vh;
+}
+.text-part_Home{
+	height: 83%;
+	padding-left: 350px;
+	padding-right: 350px;
+}
+.text-part_Intro{
+	height: 50%;
+	padding-left: 400px;
+	padding-right: 550px;
+}
+.text-part_PS{
+	height: 50%;
+	padding-left: 350px;
+	padding-right: 350px;
+}
+.text-part_Photos{
+	height: 89%;
+	padding-left: 350px;
+	padding-right: 350px;
+}
+
+h1{
+	font-size: 50px;
+	color: rgba(0,255,163,1.00);
+}
+p{
+	font-size: 24px;
+	line-height: 50px;
+	color: #FFFFFF;
+	width: 100%;
+}
+.introduction-area, .photos-area{
+	background: rgba(23,23,23,1.00);
+}
+.problems_solutions-area, .contact-area{
+	background: rgba(13,13,13,1.00);
+}
+html{
+	scroll-behavior: smooth;
+}
+
+/*Problems & Solutions*/
+.problems-navbar{
+	position: relative;
+	display: flex;
+	justify-content: right;
+	align-items: center;
+	flex-direction: row;
+	flex-wrap: wrap;
+	width: 100%;
+	height: 6%;
+	z-index: 1;
+	padding-bottom: 5px;
+}
+.problemsnav{
+	display: flex;
+	justify-content: right;
+	list-style: none;
+}
+ul3 li a{
+	padding-right: 0%;
+	margin-left: 0%;
+	color: #9F9F9F;
+	font-size: 25px;
+	font-weight: bold;
+	text-decoration: none;
+}
+ul3 li a:hover{
+	color: rgba(255,255,255,1.00)
+}
+
+
+button2{
+	color: #9F9F9F;
+	font-size: 25px;
+	font-weight: bold;
+	text-decoration: none;
+	padding-right: 15px;
+}
+button2:hover{
+	color: rgba(255,255,255,1.00);
+	cursor: pointer;
+}
+button3{
+	color: #FFFFFF;
+	font-size: 25px;
+	font-weight: bold;
+	text-decoration: none;
+	padding-right: 15px;
+}
+button3:hover{
+	color: rgba(255,255,255,1.00);
+	cursor: pointer;
+}
+/*Problems & Solutions*/
+.accordion{
+  background-color: #000000;
+  color: #FFFFFF;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 17px;
+  transition: 0.4s;
+  font-weight: bold;
+}
+.accordion2, .accordion3, .accordion4, .accordion5, .accordion6{
+  background-color: #000000;
+  color: #FFFFFF;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 17px;
+  transition: 0.4s;
+  font-weight: bold;
+}
+#PSHallway, #PSKitchen, #PSLounge, #PSStudy, #PSOther{
+	display: none;
+}
+.active, .accordion:hover, .accordion2:hover, .accordion3:hover, .accordion4:hover, .accordion5:hover, .accordion6:hover{
+  background-color: #393939;
+}
+.accordion:after, .accordion2:after, .accordion3:after, .accordion4:after, .accordion5:after, .accordion6:after{
+  content: '\2303';
+  color: #FFFFFF;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+.active:after {
+  content: "\2304";
+	color: rgba(0,255,163,1.00);
+}
+.panel, .panel2, .panel3, .panel4, .panel5, .panel6{
+  padding: 0 18px;
+  background-color: #4D4D4D;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+p2{
+	color: rgba(255,255,255,1.00);
+	font-size: 15px;
+	font-weight: 300;
+	margin-bottom: 10px;
+	display: flex;
+}
+/*Problems & Solutions*/
+
+
+
+
+
+/*Photos OLD*/
+.photo-navbar{
+	position: relative;
+	display: flex;
+	justify-content: right;
+	align-items: center;
+	flex-direction: row;
+	flex-wrap: wrap;
+	width: 100%;
+	height: 6%;
+	z-index: 1;
+	padding-bottom: 5px;
+}
+.photonav{
+	display: flex;
+	justify-content: right;
+	list-style: none;
+}
+ul2 li a{
+	padding-right: 0%;
+	margin-left: 0%;
+	color: #9F9F9F;
+	font-size: 25px;
+	font-weight: bold;
+	text-decoration: none;
+}
+ul2 li a:hover{
+	color: rgba(255,255,255,1.00)
+}
+ul2 li a:after{
+	color: rgba(255,255,255,1.00)
+}
+
+/** {
+  box-sizing: border-box;
+}*/
+
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+  position: relative;
+	padding-top: 20px;
+	}
+.container2, .container3, .container4, .container5, .container6{
+  position: relative;
+	padding-top: 20px;
+}
+#Photo_Hallway, #Photo_Kitchen, #Photo_Lounge, #Photo_Study{
+	display: none;
+}
+/* Hide the images by default */
+.mySlides {
+  display: none;
+	position: absolute;
+	margin-left: 125px;	
+}
+.mySlides2, .mySlides3, .mySlides4, .mySlides5, .mySlides6{
+  display: none;
+	position: absolute;
+	margin-left: 125px;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+.cursor2, .cursor3, .cursor4, .cursor5 .cursor6 {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev, .prev2, .prev3, .prev4, .prev5, .prev6{
+  cursor: pointer;
+  position: absolute;
+  top: 1550%;
+	left: 12%;
+  padding: 10px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next, .next2, .next3, .next4, .next5, .next6{
+  cursor: pointer;
+  position: absolute;
+  top: 1550%;
+  padding: 10px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+	right: 50%;
+ }
+/*.next2, .next3, .next6{
+  right: 38.1%;
+  border-radius: 3px 0 0 3px;
+}
+
+.next4, .next5{
+	cursor: pointer;
+	position: absolute;
+	top: 45%;
+	padding: 10px;
+	color: white;
+	font-weight: bold;
+	font-size: 20px;
+	border-radius: 0 3px 3px 0;
+	user-select: none;
+	-webkit-user-select: none;
+	right: 38%;
+}*/
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.50);
+}
+.prev2:hover, .next2:hover, .prev3:hover, .next3:hover, .prev4:hover, .next4:hover, .prev5:hover, .next5:hover, .prev6:hover, .next6:hover{
+  background-color: rgba(0, 0, 0, 0.50);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #FFFFFF;
+  font-size: 12px;
+  padding: 8px;
+  margin-left: 226px;
+  position: absolute;
+  background-color: rgba(0,0,0,0.50)
+}
+.numbertext2, .numbertext3, .numbertext4, .numbertext5, .numbertext6{
+  color: #FFFFFF;
+  font-size: 12px;
+  padding: 8px;
+  margin-left: 226px;
+  position: absolute;
+  background-color: rgba(0,0,0,0.50)
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.row2:after, .row3:after, .row4:after, .row5:after, .row6:after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 20%;
+}
+.column2, .column3, .column4, .column5, .column6{
+  float: left;
+  width: 20%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+.demo2, .demo3, .demo4, .demo5, .demo6{
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+.active2, .demo2:hover, .active3, .demo3:hover, .active4, .demo4:hover, .active5, .demo5:hover, .active6, .demo6:hover{
+  opacity: 1;
+}
+
+
+
+
+
+
+/*Small Desktop*/
+@media (max-width: 1023px){
+	.navbar{
+		height: 4%;
+	}
+	.logo{
+		font-size: 20px;
+	}
+	.nav{
+		font-size: 10px;
+	}
+	.text-part{
+	height: 83%;
+	padding-left: 170px;
+	padding-right: 435px;
+	}
+	h1{
+		font-size: 30px;
+	}
+	p{
+		font-size: 15px;
+		line-height: 30px;
+	}
+}
+/*Tablet*/
+@media (max-width: 767px){
+	h1{
+		font-size: 30px;
+	}
+}
+/*Mobile*/
+@media (max-width: 440px){
+	h1{
+		font-size: 20px;
+	}
+}
